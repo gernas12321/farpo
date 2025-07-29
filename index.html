@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ferhat DEMİRHAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #4a148c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: #2196f3;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .content h2 {
+      color: #4a148c;
+    }
+
+    .footer {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .vesikalik-photo {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+
+    .profile-name {
+      font-size: 22px;
+      font-weight: bold;
+      color: #4a148c;
+    }
+
+    .blog-entry {
+      margin-top: 50px;
+      padding: 30px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .blog-entry-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .blog-entry-text {
+      flex: 2;
+      font-size: 18px;
+    }
+
+    .blog-entry-image {
+      flex: 1;
+    }
+
+    .blog-entry-image img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .blog-entry-container {
+        flex-direction: column;
+      }
+
+      .profile-header {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ferhat DEMİRHAN</h1>
+    <p><em>Online Terapi ile Destek Alın</em></p>
+  </header>
+
+  <div class="hero">
+    Online Terapi ile Yanınızdayım
+  </div>
+
+  <div class="content">
+    <!-- Vesikalık Fotoğraf ve Adı -->
+    <div class="profile-header">
+      <img src="vesikalıkfoto.jpg" alt="Danışman Vesikalık Fotoğrafı" class="vesikalik-photo" />
+      <div class="profile-name">Ferhat DEMİRHAN</div>
+    </div>
+
+    <section id="hakkinda">
+      <h2>Hakkımda</h2>
+      <p>Merhaba, ben Psikolojik Danışman. Uzmanlık alanlarım bireysel terapi, aile danışmanlığı ve ergen psikolojisidir. Eğitimimi Muğla Sıtkı Koçman Üniversitesi Psikolojik Danışmanlık ve Rehberlik bölümünde tamamladım. 9 aylık insan kaynakları deneyimim ve 2 ay engelsiz yaşam merkezi tecrübemle size destek sunuyorum.</p>
+    </section>
+
+    <section id="hizmetler">
+      <h2>Hizmetler</h2>
+      <ul>
+        <li>Bireysel Terapi</li>
+        <li>Çift ve Aile Danışmanlığı</li>
+        <li>Çocuk ve Ergen Danışmanlığı</li>
+        <li>Online Terapi</li>
+      </ul>
+    </section>
+
+    <section id="iletisim">
+      <h2>İletişim</h2>
+      <p>Telefon: <strong>+90 541 434 68 09</strong></p>
+      <p>Email: <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJfttfnNsZCfXhjZqNxHTXJhtPtdTLHVndgBbSLxlKLQbJgPgCtwGptXHrrwmDNhjTvVFFL" target="_blanks">ferhatd.demirhann@gmail.com</a></p>
+      <p>İnstagram: <a href="https://www.instagram.com/psk.dan.ferhademirhan/">psk.dan.ferhademirhan</a></p>
+      <p>Linkedin: <a href="https://www.linkedin.com/in/ferhat-demirhanpdr48/?fbclid=PAZXh0bgNhZW0CMTEAAaf-_XElhlH2qxUXwYgwXwDe7KL_fhRJ87ggOd_qURRz59Vlhq3LqBBis8ILaA_aem_0uVuFh2tpyAfK1gwnwStCA">Ferhat Demirhan</a></p>
+    </section>
+
+    <!-- GÜNLÜK YAZILAR -->
+    <section class="blog-entry">
+      <h2>Günlük Yazılar</h2>
+      <div class="blog-entry-container">
+        <div class="blog-entry-text">
+          <p>Bugünkü düşüncem: Danışanlarla kurduğum bağ, her seansı daha anlamlı kılıyor. Her bireyin hikayesi farklı ve her hikaye, kendine özgü bir derinlik barındırıyor. Psikolojik destek, bu hikayeleri anlamlandırmak için güçlü bir köprü olabilir.</p>
+        </div>
+        <div class="blog-entry-image">
+          <img src="https://via.placeholder.com/400x250?text=Günlük+Yazı+Fotoğrafı" alt="Yazı ile ilgili fotoğraf" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Ferhat DEMİRHAN | Tüm hakları saklıdır.</p>
+  </div>
+</body>
+</html>
